@@ -1,0 +1,142 @@
+14:33:41,260 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+14:33:41,267 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+14:33:41,295 INFO  [org.jboss.as.connector] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+14:33:41,313 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+14:33:41,319 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+14:33:41,323 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:33:41,350 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:33:41,359 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013100: Current PicketBox version=4.0.7.Final
+14:33:41,361 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+14:33:41,369 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:33:41,371 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+14:33:41,501 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-5) JBoss Web Services - Stack CXF Server 4.0.2.GA
+14:33:41,563 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+14:33:41,795 WARN  [com.arjuna.ats.arjuna] (Transaction Expired Entry Monitor) ARJUNA012210: Unable to use InetAddress.getLocalHost() to resolve address.
+14:33:41,892 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:33:41,967 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on /127.0.0.1:9999
+14:33:41,967 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on localhost/127.0.0.1:4447
+14:33:41,972 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) JBAS015012: Started FileSystemDeploymentService for directory /home/navssurtani/jboss-as-7.1.1.Final/standalone/deployments
+14:33:41,981 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found jboss-as-kitchensink-html5-mobile.war in deployment directory. To trigger deployment create a file called jboss-as-kitchensink-html5-mobile.war.dodeploy
+14:33:42,041 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "jboss-as-kitchensink-html5-mobile.war"
+14:33:42,221 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for primary
+14:33:42,297 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+14:33:42,302 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+14:33:42,303 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:module/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+14:33:42,470 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+14:33:42,499 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900 1.1.5 (AS71)
+14:33:42,530 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011402: Starting Persistence Unit Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+14:33:42,789 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-5) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+14:33:42,793 INFO  [org.hibernate.Version] (MSC service thread 1-5) HHH000412: Hibernate Core {4.0.1.Final}
+14:33:42,795 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-5) HHH000206: hibernate.properties not found
+14:33:42,797 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-5) HHH000021: Bytecode provider name : javassist
+14:33:42,809 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-5) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+14:33:42,936 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-5) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+14:33:43,076 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-5) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:33:43,080 WARN  [org.hibernate.dialect.H2Dialect] (MSC service thread 1-5) HHH000431: Unable to determine H2 database version, certain features may not work
+14:33:43,082 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-5) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+14:33:43,087 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-5) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+14:33:43,090 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-5) HHH000397: Using ASTQueryTranslatorFactory
+14:33:43,109 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-5) Hibernate Validator 4.2.0.Final
+14:33:43,290 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-5) HHH000227: Running hbm2ddl schema export
+14:33:43,297 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-5) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+14:33:43,297 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-5) Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+drop sequence hibernate_sequence [90036-161]
+14:33:43,300 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-5) HHH000230: Schema export complete
+14:33:43,317 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016008: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+14:33:43,637 INFO  [org.jboss.web] (MSC service thread 1-6) JBAS018210: Registering web context: /jboss-as-kitchensink-html5-mobile
+14:33:43,641 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:33:43,641 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 3568ms - Started 215 of 292 services (76 services are passive or on-demand)
+14:33:43,779 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "jboss-as-kitchensink-html5-mobile.war"
+14:33:47,482 INFO  [org.jboss.resteasy.cdi.CdiInjectorFactory] (http-localhost-127.0.0.1-8080-1) Found BeanManager at java:comp/BeanManager
+14:33:47,489 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (http-localhost-127.0.0.1-8080-1) Deploying javax.ws.rs.core.Application: class org.jboss.as.quickstarts.html5_mobile.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+16:40:52,649 INFO  [org.jboss.as.osgi] (MSC service thread 1-6) JBAS011942: Stopping OSGi Framework
+10:37:20,772 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 26) JBAS016200: Activating ConfigAdmin Subsystem
+10:37:20,825 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+10:37:20,815 INFO  [org.jboss.as.osgi] (ServerService Thread Pool -- 39) JBAS011940: Activating OSGi Subsystem
+10:37:20,810 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+10:37:20,787 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013101: Activating Security Subsystem
+10:37:20,797 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+10:37:20,852 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013100: Current PicketBox version=4.0.7.Final
+10:37:20,869 INFO  [org.jboss.as.connector] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (JBoss IronJacamar 1.0.9.Final)
+10:37:20,906 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+10:37:20,959 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+10:37:21,578 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+10:37:22,705 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Starting Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+10:37:22,903 INFO  [org.jboss.ws.common.management.AbstractServerConfig] (MSC service thread 1-1) JBoss Web Services - Stack CXF Server 4.0.2.GA
+10:37:23,138 WARN  [com.arjuna.ats.arjuna] (Transaction Expired Entry Monitor) ARJUNA012210: Unable to use InetAddress.getLocalHost() to resolve address.
+10:37:23,445 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on localhost/127.0.0.1:4447
+10:37:23,445 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on /127.0.0.1:9999
+10:37:23,511 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Started FileSystemDeploymentService for directory /home/navssurtani/jboss-as-7.1.1.Final/standalone/deployments
+10:37:23,545 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found jboss-as-kitchensink-html5-mobile.war in deployment directory. To trigger deployment create a file called jboss-as-kitchensink-html5-mobile.war.dodeploy
+10:37:23,652 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+10:37:24,031 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "jboss-as-kitchensink-html5-mobile.war"
+10:37:24,767 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for primary
+10:37:25,243 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016002: Processing weld deployment jboss-as-kitchensink-html5-mobile.war
+10:37:25,249 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MemberRegistration in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:module/MemberRegistration!org.jboss.as.quickstarts.html5_mobile.service.MemberRegistration
+	java:global/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:app/jboss-as-kitchensink-html5-mobile/MemberRegistration
+	java:module/MemberRegistration
+
+10:37:25,252 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named MemberService in deployment unit deployment "jboss-as-kitchensink-html5-mobile.war" are as follows:
+
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:module/MemberService!org.jboss.as.quickstarts.html5_mobile.rest.MemberService
+	java:global/jboss-as-kitchensink-html5-mobile/MemberService
+	java:app/jboss-as-kitchensink-html5-mobile/MemberService
+	java:module/MemberService
+
+10:37:25,899 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016005: Starting Services for CDI deployment: jboss-as-kitchensink-html5-mobile.war
+10:37:25,942 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900 1.1.5 (AS71)
+10:37:25,979 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011402: Starting Persistence Unit Service 'jboss-as-kitchensink-html5-mobile.war#primary'
+10:37:26,350 INFO  [org.hibernate.annotations.common.Version] (MSC service thread 1-4) HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+10:37:26,357 INFO  [org.hibernate.Version] (MSC service thread 1-4) HHH000412: Hibernate Core {4.0.1.Final}
+10:37:26,359 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000206: hibernate.properties not found
+10:37:26,360 INFO  [org.hibernate.cfg.Environment] (MSC service thread 1-4) HHH000021: Bytecode provider name : javassist
+10:37:26,408 INFO  [org.hibernate.ejb.Ejb3Configuration] (MSC service thread 1-4) HHH000204: Processing PersistenceUnitInfo [
+	name: primary
+	...]
+10:37:27,101 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (MSC service thread 1-4) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+10:37:27,460 INFO  [org.hibernate.dialect.Dialect] (MSC service thread 1-4) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+10:37:27,465 WARN  [org.hibernate.dialect.H2Dialect] (MSC service thread 1-4) HHH000431: Unable to determine H2 database version, certain features may not work
+10:37:27,469 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (MSC service thread 1-4) HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+10:37:27,477 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (MSC service thread 1-4) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+10:37:27,521 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (MSC service thread 1-4) HHH000397: Using ASTQueryTranslatorFactory
+10:37:27,616 INFO  [org.hibernate.validator.util.Version] (MSC service thread 1-4) Hibernate Validator 4.2.0.Final
+10:37:28,228 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH000227: Running hbm2ddl schema export
+10:37:28,245 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH000389: Unsuccessful: drop sequence hibernate_sequence
+10:37:28,246 ERROR [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) Sequence "HIBERNATE_SEQUENCE" not found; SQL statement:
+drop sequence hibernate_sequence [90036-161]
+10:37:28,276 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (MSC service thread 1-4) HHH000230: Schema export complete
+10:37:28,310 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment jboss-as-kitchensink-html5-mobile.war
+10:37:29,052 INFO  [org.jboss.web] (MSC service thread 1-8) JBAS018210: Registering web context: /jboss-as-kitchensink-html5-mobile
+10:37:29,060 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015951: Admin console listening on http://127.0.0.1:9990
+10:37:29,061 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015874: JBoss AS 7.1.1.Final "Brontes" started in 14585ms - Started 215 of 292 services (76 services are passive or on-demand)
+10:37:29,223 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "jboss-as-kitchensink-html5-mobile.war"
+10:37:31,598 INFO  [org.jboss.resteasy.cdi.CdiInjectorFactory] (http-localhost-127.0.0.1-8080-3) Found BeanManager at java:comp/BeanManager
+10:37:31,608 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (http-localhost-127.0.0.1-8080-3) Deploying javax.ws.rs.core.Application: class org.jboss.as.quickstarts.html5_mobile.rest.JaxRsActivator$Proxy$_$$_WeldClientProxy
+13:23:44,344 INFO  [org.jboss.as.osgi] (MSC service thread 1-2) JBAS011942: Stopping OSGi Framework
+13:23:44,351 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Pausing Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
+13:23:44,351 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) Stopping Coyote HTTP/1.1 on http-localhost-127.0.0.1-8080
